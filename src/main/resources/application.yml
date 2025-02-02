@@ -1,0 +1,11 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 450MB
+      max-request-size: 450MB
+  application:
+    name: hook-upload
+vimeo:
+  token: ${VIMEO_TOKEN}
+  url: https://api.vimeo.com/me/videos
